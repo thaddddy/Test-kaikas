@@ -1,0 +1,41 @@
+@font-face {
+  font-family: gilroy;
+  src: url('gilroy.ttf');
+}
+@font-face {
+  font-family: arial;
+  src: url('arial.ttf');
+}
+* {
+	font-family: gilroy,sans-serif;
+}
+body {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+}
+body::-webkit-scrollbar {
+  width: 0!important;
+}
+.scPage::-webkit-scrollbar {
+  width: 0!important;
+}
+input, textarea, select, button, Input, Button, Select {
+	outline: none!important;
+  resize: none!important;
+}
+input, textarea {
+  border: 1px solid #cdcdcd;
+  transition: border .3s ease-in-out;
+}
+input:focus, textarea:focus {
+  border: 1px solid #1098fc;
+}
+input::placeholder, textarea::placeholder {
+  color: #cdcdcd;
+}
+select {
+	cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
+}
